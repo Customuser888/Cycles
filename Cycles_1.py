@@ -1,5 +1,5 @@
-n = int(input('Введите N: '))
-b = 1
-while b**2 < n:
-  print(b**2)
-  b += 1
+n = int(input('Введите n: '))
+for i in range(1, n + 1):
+    s = i * i
+    if s <= n:
+        print(s, end=' ')
